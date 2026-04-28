@@ -129,6 +129,8 @@ void __st_generate_and_print_stack_trace() {
         // printf("[%ld] Address: 0x%016" PRIxPTR"\n", i, stack[i]);
         __st_print_stack_trace(i, stack[i]);
     }
+
+    ds_free(stack);
 }
 
 void __st_handle_fault(int sig) {
