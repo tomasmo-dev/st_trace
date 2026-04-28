@@ -13,6 +13,8 @@ For the stack walker to work correctly, you **must** pass specific flags to the 
 | `-ldl` | Links the dynamic loader library. **Must be placed at the end of your compilation command.** |
 | `-O0` | (Recommended) Disables inlining and optimizations that might hide functions from the stack. |
 
+Fasm compiler is required to use this library
+
 --
 
 A sample makefile for compilation can be found in the repo root
