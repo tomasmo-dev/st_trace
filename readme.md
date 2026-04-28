@@ -18,3 +18,12 @@ Fasm compiler is required to use this library
 ---
 
 A sample makefile for compilation can be found in the repo root
+
+---
+
+Made by @tomasmo-dev for fun/learning purposes
+
+---
+
+Known problems:
+- the function where the signal is originated is not showed in the stack trace due to technical reasons. May be fixed in the future
